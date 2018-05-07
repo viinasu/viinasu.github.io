@@ -44,7 +44,7 @@ ul.posts li {
 }
 
 /* CV PAGE */
-#cvPage {   
+#cvPage iframe {   
     width: 100%;
     height: 100%;
     max-width: 800px;
