@@ -1,3 +1,4 @@
+/* DEFAULTS */
 body {
     margin: 60px auto;
     width: 70%;
@@ -40,4 +41,12 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+/* CV PAGE */
+#cvPage {   
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    border: none;
 }
