@@ -298,24 +298,24 @@ jQuery(document).ready(function($) {
     /* ------------------------------ Google Maps --------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    var map;
+    // var map;
     function initialize() {
-        map = new GMaps({
-            div: '#map',
-            lat: -37.817917,
-            lng: 144.965065,
-            zoom: 16
-
-        });
-        map.addMarker({
-            lat: -37.81792,
-            lng: 144.96506,
-            title: 'Marker with InfoWindow',
-            icon: 'images/pins-map/map-marker.png',
-            infoWindow: {
-                content: '<p>Melbourne Victoria, 300, Australia</p>'
-            }
-        });
+    //     map = new GMaps({
+    //         div: '#map',
+    //         lat: -37.817917,
+    //         lng: 144.965065,
+    //         zoom: 16
+    //
+    //     });
+    //     map.addMarker({
+    //         lat: -37.81792,
+    //         lng: 144.96506,
+    //         title: 'Marker with InfoWindow',
+    //         icon: 'images/pins-map/map-marker.png',
+    //         infoWindow: {
+    //             content: '<p>Melbourne Victoria, 300, Australia</p>'
+    //         }
+    //     });
     }
 
     /* ---------------------------------------------------------------------- */
