@@ -77,9 +77,18 @@ layout: default
         
         <!-- Profile Description -->
         <div id="profile_desc">
-            <!-- TODO: blue section -->
             <p>
-            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac risus nibh. Donec adipiscing luctus tur
+                Software Engineer @ <a target="_blank" href="https://indiegogo.com/">Indiegogo </a>
+            </p>
+            <p>
+                Community Organizer @ <a target="_blank" href="https://www.meetup.com/WriteSpeakCode-SFBay/events/">Write/Speak/Code</a>️
+            </p>
+            <p>
+                Proud Belizean Chinese American
+            </p>
+            <!-- flag emojis -->
+            <p>
+                🇧🇿🇨🇳🇺🇸
             </p>
             
         </div>
@@ -88,13 +97,12 @@ layout: default
         
         <!-- Name -->
          <div id="profile_social">
-            <h6>My Social Profiles</h6>
-			
-            <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
-            <a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
-            <a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
-            <a href="{{site.dribbble}}"><i class="fa fa fa-dribbble"></i></a>
-            <a href="{{site.foursquare}}"><i class="fa fa-foursquare"></i></a>
+            <h6>Contact Me</h6>
+             <a target="_blank" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+             <a target="_blank" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+             <a target="_blank" href="{{site.github}}"><i class="fa fa fa-github"></i></a>
+             <a target="_blank" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+             <a target="_blank" href="{{site.email}}"><i class="fa fa-envelope"></i></a>
             <div class="clear"></div>
         </div>
         <!-- End Name -->
@@ -116,25 +124,25 @@ layout: default
             <i class="fa fa-user icon_menu icon_menu_active"></i>
         </li>
 
-        <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
+        <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume" style="margin-bottom: 350px !important;">
             <span class="tite-list">resume</span>
             <i class="fa fa-tasks icon_menu"></i>
         </li>
 
         <!-- removed: portfolio -->
 
-        <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
-            <span class="tite-list">blog</span>
-            <i class="fa fa-bullhorn icon_menu"></i>
-        </li>
+<!--        <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">-->
+<!--            <span class="tite-list">blog</span>-->
+<!--            <i class="fa fa-bullhorn icon_menu"></i>-->
+<!--        </li>-->
 
-        <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
-            <span class="tite-list">contact</span>
-            <i class="fa fa-envelope icon_menu"></i> 
-        </li>
+        <!-- removed: contact me -->
 
-        <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
-        <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+        <!-- removed: print -->
+
+        <a href="https://docs.google.com/document/d/1laJBzCloweUVFc5Qw4hmxXnl6OCoOucn6ikcCKsqhz4/export?format=pdf" id="downlowd">
+            <i class="fa fa-download icon_print"></i>
+        </a>
     </ul>
     <!-- /resp-tabs-list -->
 
@@ -146,11 +154,6 @@ layout: default
 {% include /profile.html %}
 
 {% include /cv.html %}
-
-{% include /blog.html %}
-
-{% include /contact.html %}
-
 
 </div>
 <!-- End #resp-tabs-container --> 

@@ -7,7 +7,7 @@ baseurl: '' #change it according to your repository name
 
 # Profile information
 yourname: Ting Deng
-title: FULL STACK SOFTWARE ENGINEER
+title: SOFTWARE ENGINEER
 location: San Francisco, CA
 
 
@@ -15,6 +15,8 @@ location: San Francisco, CA
 facebook: https://www.facebook.com/meltingd
 twitter: https://twitter.com/tingex
 linkedin: https://www.linkedin.com/in/tingdeng/
+github: https://github.com/viinasu
+email: mailto:maiden.belize+hellotingdeng@gmail.com
 #dribbble: http://www.dribble.com  ## you dribbble account url
 #foursquare: http://www.foursquare.com  ## your foursquare account url
 

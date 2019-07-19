@@ -1002,6 +1002,16 @@ ul.about {
     padding-bottom: 15px;
 }
 
+.widget-profil #profile_desc p
+{
+    text-align: center;
+}
+
+.widget-profil #profile_desc a
+{
+    color: #839ccf;
+}
+
 .widget-profil #profile_info
 {
     padding-bottom: 15px;
